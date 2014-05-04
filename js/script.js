@@ -1,15 +1,8 @@
 $(document).ready(function(){
-	$('#avatar').tooltip();
-	//alert('test');
-	console.log('testttt');
+	avatarTooltip();
 });
 
-/*
-var avatarTooltip = function(){
-	$('#avatar').tooltip({
-		trigger: 'hover',
-		selector: 'a[rel=tooltip]'
-	});
-	console.log('finished tooltip')
+
+var avatarTooltip = function (){
+	$('#avatar').tooltip();
 };
-*/
