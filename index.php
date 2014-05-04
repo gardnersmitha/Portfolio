@@ -16,6 +16,8 @@
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
 
+
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
@@ -36,7 +38,7 @@
     <div class="container-narrow">
 
       <div class="jumbotron">
-        <img src="img/avatar.png" class="img-circle headshot" alt="Headshot" />
+        <a id="avatar" rel="tooltip" data-toggle="tooltip" data-placement="right" title="Coloring a little off, but decemt avatar otherwise." href="#"><img src="img/avatar.png" class="img-circle headshot" alt="Headshot" /></a>
         <h1 class="hidden-phone">Austin Gardner-Smith</h1>
         <h1 class="visible-phone">Austin Gardner-Smith</h1>
         <p class="lead">Well, the internet version, at least.</p>
@@ -164,8 +166,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <!-- Bootstrap -->
-    <script src="js/bootstrap-min.js"></script>
+    <!-- Bootstrap, jQuery, script.js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     
     <!-- Google Analytics -->
     <script type="text/javascript">
