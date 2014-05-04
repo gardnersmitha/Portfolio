@@ -1,0 +1,293 @@
+/*
+
+============================================
+@ Document Title: style.css
+@ Created By: Austin Gardner-Smith
+@ Created On: 00/00/2010
+@ Description: Stylesheet for Portfolio v1.5
+@ Copyright ©Austin Gardner-Smith, 2010
+============================================
+
+
+TABLE OF CONTENTS:
+
+
+1.0 - Fonts 
+2.0 - Color and Headings
+3.0 - Template Layout
+4.0 - Page Layouts
+	4.1 Landing Page	(index.php)
+	4.2 Resume Page		(pages/resume.php)
+	4.3 Contact Page	(pages/contact.php)
+5.0 - Screen/Resolution/Viewport Adjustments
+
+
+*/
+
+
+/* 1.0 - Fonts 
+=============================================================*/
+
+@font-face {
+	font-family: 'MiamaRegular';
+	src: url('fonts/Miama-webfont.eot');
+	src: local('☺'), url('fonts/Miama-webfont.woff') format('woff'), url('fonts/Miama-webfont.ttf') format('truetype'), url('fonts/Miama-webfont.svg#webfontkYpGafVz') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* 2.0 - Color and Headings 
+============================================================*/
+
+body{
+	background:#000033;
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 62.5%; /* Resets 1em to 10px */
+}
+
+h1{font-size:4.0em;} /* 40px */
+h2{font-size:3.6em;} /* 36px */
+h3{font-size:2.4em;} /* 24px */
+h4{font-size:1.8em;} /* 18px */
+h5{font-size:1.6em;} /* 16px */
+
+a{
+	text-decoration:none;
+}
+
+/* 3.0 - Template Layout 
+============================================================*/
+
+
+#mainframe{
+	max-width:960px;
+	width:90%;
+	margin:0 auto;
+	x-moz-box-shadow:0px 0px 5px #ccc;
+	x-webkit-box-shadow:0px 0px 5px #ccc;
+	border-left:4px solid #6E000D;
+	border-right:4px solid #6E000D;
+	background:#f4f4f4;
+	padding:50px 0 0 0;
+}
+
+header{
+	background:transparent url(../images/logo.png) top left no-repeat scroll;
+	height:140px;
+	margin:0 0 0 -18px;	
+	font-family:Georgia;
+	font-style:italic;
+	padding:0 0 0 300px;
+	font-size:24px;
+}
+
+nav{
+	padding:28px 0 0 0;
+	color:#333;
+}
+
+nav ul li{
+	float:left;
+	margin:0 5%;
+}
+
+footer{
+	height:50px;
+	background:#cacaca;
+	bottom:0px;
+	text-align:center;
+}
+
+aside{
+	width:40%;
+	margin:5%;
+	color:#333;
+}
+
+/* 4.0 - Page Layout
+============================================================*/
+
+	/* Landing Page */
+	
+	#boilerplate{
+		width:90%;
+		padding:0 5%;
+		color:#333;
+	}
+	
+	#boilerplate h2,
+	#boilerplate h4{
+		padding:10px 0;
+		font-weight:normal;
+	}
+	
+	#boilerplate span{
+		color:#000;
+	}
+	
+	
+	#port_btn{
+		width:250px;
+		font-size:1.8em;
+		height:18px;
+		padding:10px 0;
+		text-align:center;
+		margin:20px auto;
+		background:#000033;
+	}
+	
+	div.landing{
+		height:500px;
+	}
+	.landing a{
+		color:#f4f4f4;
+	}
+	
+	.landing #boilerplate{
+		text-align:center;
+	}
+	
+	section#imagepane{
+		width:90%;
+	}
+	
+	section#imagepane div{
+		width:20%;
+		padding:2.5%;
+		
+	}
+	
+	#bio h4{
+		color:#333;
+		line-height:130%;
+		margin:25px 5%;
+		font-weight:normal;
+	}
+	
+	#social{
+		margin-top:75px;
+	}
+	#linklist{
+		height:40px;
+		width:90%;
+	}
+	
+	#linklist li{
+		margin:20px 4%;
+	}
+	
+	#linklist li a{
+		color:#6E000D;
+		font-size:18px;
+		font-weight:bold;
+	}
+	
+	/* 4.2 - Resume Page */
+	.resume{
+		color:#333;
+	}
+	article.resume{
+		padding:20px 2%;
+		clear:both;
+	}
+	
+	.resume#header{
+		border-bottom:1px solid #ccc;
+		overflow:hidden;
+	}
+	
+	.resume#header div{
+		width:50%;
+	}
+	.resume#header a{
+		color:#333;
+	}
+	.resume#header a:hover{
+		color:#6E000D;
+	}
+	
+	.resume h4{
+		padding:5px 0;
+		font-style:italic;
+	}
+	.resume h5{
+		padding:10px 0;
+	}
+	
+	.resume#experience div{
+		padding:0 0 0 2%;
+	}
+	
+	.resume#header h4{
+		padding:0px;
+		font-style:normal;
+	}
+	.resume p{
+		font-size:1.6em;
+		line-height:1.8em;
+	}
+	
+	.experience-item p{
+		display:none;
+	}
+	
+	/* 4.3 - Contact Page */
+	
+	.contact{
+		width:65%;
+		margin:0 0 0 5%;
+		font-size:16px;
+	}
+	
+	#contact input,
+	#contact textarea{
+		clear:left;
+		width:80%;
+		border:1px solid #cacaca;
+		margin:10px 0px;
+		font-size:16px;
+		font-family: Georgia, Times, Times New Roman, serif;
+		font-style:italic;
+		color:#333;
+		-moz-border-radius:14px;
+		-webkit-border-radius:14px;
+		padding:10px;
+	}
+	
+	#contact input{
+		height:30px;
+		padding:0 10px;
+	}
+	
+	#contact textarea{
+		height:300px;
+	}
+	
+	#contact div{
+		overflow:hidden;
+		margin:10px 0;
+	}
+	
+	#contact label{
+		overflow:hidden;
+	}
+
+
+/* 5.0 - Screen/Resolution/Viewport Adjustments
+================================================================*/
+
+@media screen and (max-width: 600px) {
+	#mainframe{
+		width:90%;
+		margin:0 5%;
+	}
+	.float{
+		float:none;
+	}
+	
+	aside{
+		width:90%;
+		margin:5%;
+	}
+}

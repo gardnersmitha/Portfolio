@@ -1,0 +1,70 @@
+/* 
+------------------------------------
+1. Fonts
+------------------------------------
+*/
+
+body{
+	font-family:"Helvetica Nueue", Helvetica, Arial, sans;
+}
+
+
+/* 
+------------------------------------
+2. Layout
+------------------------------------
+*/
+
+#mainframe{
+	width:768px;
+	overflow:none;
+	margin:0 auto;
+}
+
+#mainframe > header{
+	width:748px;
+	overflow:none;
+	padding:10px;
+	background:#000;
+	color:#fff;
+}
+
+a#bookmarklet_link{
+	text-align:center;
+	width:150px;
+	display:block;
+	float:right;
+	border-radius:5px;
+	background:#cacaca;
+	color:#333;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #fff;
+}
+
+#mainframe > footer{
+	width:748px;
+	overflow:none;
+	padding:10px;
+	background:#000;
+	color:#fff;
+}
+
+
+.link{
+	min-height:20px;
+	display:block;
+	overflow:hidden;
+	line-height:250%;
+	padding:10px 0;
+	border-bottom:1px solid #cacaca;
+}
+
+.link_title{
+	font-size:2em;
+	font-style:bold;
+	text-decoration:none;
+}
+
+a.link_title:hover{
+	text-decoration:underline;
+}

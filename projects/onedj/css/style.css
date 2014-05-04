@@ -1,0 +1,137 @@
+/*
+
+============================================
+@ Document Title: style.css
+@ Created By: Austin Gardner-Smith
+@ Created On: 12/02/2010
+@ Description: Stylesheet for oneDJ
+@ Copyright ©Austin Gardner-Smith, 2010
+============================================
+
+*/
+
+
+/*
+X.0
+============================
+Fonts and Stuff
+============================
+*/
+
+body{
+	width:100%;
+	font-family:'Arial Rounded', 'Arial', sans;
+	font-size:62.5%;
+}
+
+
+
+/*
+X.0
+============================
+Layout
+============================
+*/
+
+#mainframe{
+	width:960px;
+	margin:0 auto;
+}
+
+.gutter{
+	float:left;
+	width:310px;
+	padding:5px;
+}
+
+.panel{
+	float:left;
+	width:640px;
+}
+
+
+/*
+X.0
+============================
+Header
+============================
+*/
+
+body > header{
+	height:40px;
+	width:100%;
+	background:#000;
+	border-bottom:2px solid #ccc;
+	color:#fff;
+	line-height:40px;
+}
+
+body > header > div.wrap{
+	max-width:960px;
+	margin:0 auto;
+}
+
+	#logo{
+		float:left;
+	}
+	
+	#upload{
+		float:right;
+		color:#85C441;
+	}
+
+body > header h1{
+	font-size:1.6em;
+}
+
+/*
+X.0
+============================
+Gutter
+============================
+*/
+
+li.gutter_item{
+	height:40px;
+	border-bottom:1px dotted #cacaca;
+}
+
+	span.title{
+		width:83%;
+		color:#333;
+		padding:0 1%;
+	}
+	
+	span.title h2{
+		font-size:1.6em;
+	}
+
+
+/*
+X.0
+============================
+Panel
+============================
+*/
+
+
+.panel form{
+	width:80%;
+	margin:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

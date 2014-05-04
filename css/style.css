@@ -1,0 +1,186 @@
+/*
+Fonts
+------------------------------------
+*/
+
+body{
+  font-family:'Helvetica Neue', Helvetica, Arial, sans;
+  color:#333;
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+Additional Icons
+------------------------------------
+*/
+
+i{
+  height:16px;
+  width:16px;
+  float:left;
+  padding:4px 0 0 0;
+}
+
+i.linkedin{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.linkedin.com') no-repeat scroll top left;
+}
+
+i.twitter{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.twitter.com') no-repeat scroll top left;
+}
+
+i.nanigans{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.nanigans.com') no-repeat scroll top left;
+}
+
+i.ga{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.generalassemb.ly') no-repeat scroll top left;
+}
+
+i.hillholliday{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.hhcc.com') no-repeat scroll top left;
+}
+
+i.streetwise{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.bostinno.com') no-repeat scroll top left;
+}
+
+i.pinyadda{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.pinyadda.com') no-repeat scroll top left;
+}
+
+i.hypem{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.hypem.com') no-repeat scroll top left;
+}
+
+i.instapaper{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.instapaper.com') no-repeat scroll top left;
+}
+
+i.tumblr{
+  background: transparent url('http://www.google.com/s2/favicons?domain=www.tumblr.com') no-repeat scroll top left;
+}
+
+
+
+/*
+Layout
+------------------------------------
+*/
+
+/* Global Header */
+body > header{
+  width:120%;
+  margin:0 -20px;
+  height:10px;
+  background:#2E89FF;
+}
+
+/* Custom container */
+.container-narrow {
+margin: 0 auto;
+max-width: 700px;
+}
+
+.container-narrow > hr {
+margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+padding: 60px 0 20px 0;
+text-align: center;
+}
+
+.jumbotron .headshot{
+  border:1px solid #cacaca;
+  box-shadow: 0px 0px 2px #cacaca;
+  height:150px;
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .hidden-phone{
+font-family: 'BebasNeueRegular';
+font-size: 42px;
+line-height: 140%;
+}
+
+.jumbotron .visible-phone{
+  font-family: 'BebasNeueRegular';
+  font-size: 30px;
+  line-height: 140%;
+}
+
+.jumbotron .btn {
+margin-top: 40px;
+}
+
+/* Supporting info content */
+.info {
+margin: 60px 0;
+}
+.info p + h3 {
+margin-top: 28px;
+}
+
+.info h3 {
+ font-family: 'Helvetica Neue';
+ text-transform: uppercase;
+}
+
+.info p {
+ line-height: 140%;
+ font-weight: 200;
+}
+
+/* Link Lists */
+
+ul.links{
+ padding:0;
+ margin:30px 0;
+ list-style: none;
+}
+
+ul.links li a{
+  display:block;
+  xpadding:0 0 10px 0;
+  width:100%;
+  overflow: hidden;
+}
+
+ul.links li i{
+  float:left;
+  margin:0 5px;
+}
+
+ul.links li span{
+  float:left;
+  font-size:16px;
+  line-height: 100%;
+}
+
+
+/* Global Footer */
+
+body > footer{
+  width: 120%;
+  height:25px;
+  padding:25px 0;
+  background: #2E89FF;
+  color:#FFFFFF;
+}
+

@@ -1,0 +1,46 @@
+/*
+
+Tumblr Theme CSS
+
+*/
+
+body{
+	background:#FDFFF0;
+}
+
+#mainframe{
+	width:768px;
+	margin:0 auto;
+	overflow:hidden;
+	line-height:140%;
+	font-family:'Molengo', sans;
+}
+
+#posts{
+	list-style:none;
+}
+
+.post{
+	clear:both;
+	overflow:hidden;
+	margin:40px 0;
+}
+
+.post-top-border{
+	height:23px;
+	width:23px;
+	-webkit-border-radius:15px;
+	float:left;
+	margin:0 20px 20px 0;
+	background: -moz-linear-gradient(100% 100% 90deg, #780101, #A41C1C);
+  	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#A41C1C), to(#780101));
+}
+
+.post-content{
+	float:left;
+	width:625px;
+}
+.post-bottom-border{
+	
+}
+

@@ -1,0 +1,267 @@
+/*
+
+============================================
+@ Document Title: style.css
+@ Created By: Austin Gardner-Smith
+@ Created On: 00/00/2010
+@ Description: Stylesheet for Project
+@ Copyright ©Austin Gardner-Smith, 2010
+============================================
+
+*/
+
+/* Fonts */
+
+@font-face {
+	font-family: 'MarketingScriptRegular';
+	src: url('marketingscript.eot');
+	src: local('☺'), url('../assets/fonts/marketingscript.woff') format('woff'), url('../assets/fonts/marketingscript.ttf') format('truetype'), url('../assets/fonts/marketingscript.svg#webfontzPrvb56S') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MolengoRegular';
+	src: url('molengo.eot');
+	src: local('☺'), url('../assets/fonts/molengo.woff') format('woff'), url('../assets/fonts/molengo.ttf') format('truetype'), url('../assets/fonts/molengo.svg#webfontDWj2kBEE') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:link{
+	text-decoration:none;
+	color:#000;
+}
+
+a:visited{
+	color:#000;
+}
+
+body{
+	background:#ccc url('../assets/images/grey_noise.png') top left repeat;
+	font-family: 'MolengoRegular';
+}
+
+#mainframe{
+	width:1024px;
+	margin:0 auto;	
+}
+
+#masthead{
+	padding:45px 0;
+	text-align:center;
+	border-bottom:4px solid #990000;
+}
+
+/* Homepage */
+
+#masthead h1{
+	font-size:6.0em;
+	font-family: 'MarketingScriptRegular';
+	text-shadow:0px 1px 0px #fff;
+}
+
+#masthead h3{
+	color:#333;
+	font-size:1.5em;
+	text-shadow:0px 1px 0px #fff;
+}
+
+.bigbutton{
+	border-radius:12px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	padding:20px;
+	line-height:32px;
+	font-family: 'MarketingScriptRegular';
+	font-size:32px;
+	color:#ccc;
+	text-shadow:0px 1px 0px #d80202;
+	background:transparent url('../assets/images/bigbutton.png') center left repeat-x scroll;
+	border:2px solid #990000;
+}
+
+.midbutton{
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding:16px;
+	line-height:24px;
+	font-family: 'MarketingScriptRegular';
+	font-size:24px;
+	color:#ccc;
+	text-shadow:0px 1px 0px #d80202;
+	background:transparent url('../assets/images/bigbutton.png') center left repeat-x scroll;
+	border:1px solid #990000;
+}
+
+.bigbutton:hover,
+.midbutton:hover{
+	box-shadow:0px 0px 4px #333;
+	-moz-box-shadow:0px 0px 4px #333;
+	-webkit-box-shadow:0px 0px 4px #333;
+	
+}
+
+.left{float:left;}
+.right{float:right;}
+
+#homepage_cta{
+	width:390px;
+	margin:50px auto;
+	clear:both;
+}
+
+#steps{
+	overflow:hidden;
+}
+
+#steps li{
+	float:left;
+	width:33.33%;
+	text-align:center;
+}
+
+#steps li .img,
+#steps li h3{
+	width:95%;
+	padding:2.5%;
+}
+
+#steps li .img{
+	margin:30px 0 0 0;
+	height:300px;
+}
+
+#img1{background:transparent url('../assets/images/homepage.png') top left no-repeat scroll;}
+#img2{background:transparent url('../assets/images/homepage.png') -323px 0px no-repeat scroll;}
+#img3{background:transparent url('../assets/images/homepage.png') -646px 0px no-repeat scroll;}
+
+
+#main_content{
+	overflow:hidden;
+	border-bottom:2px solid #990000;
+}
+
+
+#mainframe > footer{
+	text-align:center;
+}
+
+#mainframe > footer h3{
+	margin:10px 0;
+	color:#667;
+}
+
+
+/* Page Header */
+
+#pageheader{
+	border-bottom:4px solid #990000;
+	padding:20px 0;
+}
+
+#pageheader h1{
+	font-size:3.0em;
+	font-family: 'MarketingScriptRegular';
+	text-shadow:0px 1px 0px #fff;
+}
+
+
+/*Page Footer */
+
+#mainframe > footer{
+	text-align:center;
+}
+
+#mainframe > footer h3{
+	margin:10px 0;
+	color:#667;
+}
+
+/* Page Nav */
+
+.page_nav{
+	overflow:hidden;
+	padding:20px 0;
+	clear:both;
+}
+
+.page_nav a input:hover{
+	cursor:pointer;
+}
+
+/* Card Page */
+
+.card .panel{
+	float:left;
+	width:25%;
+	overflow:hidden;
+	padding:20px 0;
+	border-bottom:1px dotted #333;
+}
+
+.card .img{
+	width:95%;
+	padding:2.5%;	
+	height:250px;
+}
+
+.card label{
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+}
+
+#card1{background:transparent url('../assets/images/card.png') top center no-repeat scroll;}
+#card2{background:transparent url('../assets/images/card.png') center -260px no-repeat scroll;}
+#card3{background:transparent url('../assets/images/card.png') center -520px no-repeat scroll;}
+#card4{background:transparent url('../assets/images/card.png') top center no-repeat scroll;}
+#card5{background:transparent url('../assets/images/card.png') center -260px no-repeat scroll;}
+
+/* Forms */
+
+label,
+input,
+textarea{
+	display:block;
+	clear:both;
+}
+
+input[type="text"]{
+	height:21px;
+	padding:2px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #676767;
+	margin:5px 0 10px 0;
+}
+
+input[type="submit"]{
+}
+
+input[type="radio"]{
+	display:inline;
+}
+
+textarea{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #676767;
+	margin:5px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

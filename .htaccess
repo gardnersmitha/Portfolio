@@ -1,0 +1,5 @@
+AddHandler php5-script .php
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule index.html /portfolio/ [R]

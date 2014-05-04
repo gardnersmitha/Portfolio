@@ -1,0 +1,38 @@
+/*
+
+============================================
+@ Document Title: style.css
+@ Created By: Austin Gardner-Smith
+@ Created On: 00/00/2010
+@ Description: Stylesheet for Search Insights Project
+@ Copyright ©Austin Gardner-Smith, 2010
+============================================
+
+*/
+
+#mainframe{
+	width:960px;
+	margin:0 auto;
+}
+
+#mainframe > section{
+	overflow:hidden;
+	padding:40px 0;
+	border-bottom:2px dotted #cacaca;
+}
+
+#mainframe > section h1{
+	padding:10px 0;
+	font-size:1.4em;
+	color:#990000;
+}
+
+.column{
+	width:320px;
+	float:left;
+}
+
+.double{
+	width:640px;
+	float:left;
+}

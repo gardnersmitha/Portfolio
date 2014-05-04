@@ -1,0 +1,129 @@
+/*
+
+============================================
+@ Document Title: style.css
+@ Created By: Austin Gardner-Smith
+@ Created On: 00/00/2010
+@ Description: Stylesheet for Decksauce
+@ Copyright ©Austin Gardner-Smith, 2010
+============================================
+
+*/
+
+body{
+	background:#000;
+	font-family:'Futura';
+}
+
+a{
+	text-decoration:none;
+}
+
+#mainframe{
+	width:960px;
+	margin:0 auto;
+	background:#333;
+	overflow:hidden;
+	height:1000px;
+}
+
+#launcher{
+	text-align:center;
+	width:960px;
+	color:#990000;
+	border-top:1px solid #cacaca;
+	border-bottom:1px solid #cacaca;
+	overflow:hidden;
+	background:#fff;
+	height:150px;
+	overflow:hidden;
+	margin:300px 0 300px 0;
+	
+}
+
+	#launcher h1{
+		display:block;
+		padding:50px;
+		font-size:2.5em;
+		text-shadow:1px 1px 0px #f2f2f2;
+		background:#fff;
+		font-family:'Futura';
+	}
+	
+	
+/*
+Gutter/Panel Structure
+------------------
+*/
+
+header{
+	width:100%;
+	height:100px;
+}
+	
+	header#internal_masthead h1{
+		font-size:2.5em;
+		font-family:'Futura';
+		color:#990000;
+		padding:30px;
+		text-shadow:0px 1px 0px #000;
+	}
+	
+#default_home{
+	width:320px;
+	margin:100px auto;
+	text-align:center;
+}
+
+#gutter{
+	width:316px;
+	float:left;
+	background:#fff;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	border-radius:12px;
+	overflow:hidden;
+	height:1000px;
+	border:2px solid #cacaca;
+}
+
+#panel{
+	width:640px;
+	float:left;
+	background:#fff;
+	background:#fff;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	border-radius:12px;
+	min-height:1000px;
+}
+
+	#gutter h2{
+		padding:10px;
+		font-size:1.5em;
+	}
+	
+	#gutter ul li{
+		height:40px;
+		border-bottom:1px dotted #cacaca;
+		clear:both;
+		line-height:40px;
+		padding:0 10px;
+		width:300px;
+	}
+	
+	#gutter ul li:hover{
+		background:#f4f4f4;
+		cursor:pointer;
+	}
+	
+	#gutter .create_item{
+		height:40px;
+		line-height:40px;
+		color:#00C90D;
+		padding:0 10px;
+	}	
+	
+	#gutter .create_item:hover{
+		cursor:pointer;
+	}
