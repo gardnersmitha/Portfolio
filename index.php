@@ -38,11 +38,11 @@
     <div class="container-narrow">
 
       <div class="jumbotron">
-        <a id="avatar" rel="tooltip" data-toggle="tooltip" data-placement="right" title="Coloring a little off, but decemt avatar otherwise." href="#"><img src="img/avatar.png" class="img-circle headshot" alt="Headshot" /></a>
+        <a id="avatar" rel="tooltip" data-toggle="tooltip" data-placement="right" title="Disclaimer: not an actual photo. I'm not nearly that good looking in person." href="#"><img src="img/avatar.png" class="img-circle headshot" alt="Headshot" /></a>
         <h1 class="hidden-phone">Austin Gardner-Smith</h1>
         <h1 class="visible-phone">Austin Gardner-Smith</h1>
         <p class="lead">Well, the internet version, at least.</p>
-        <a href="https://twitter.com/gardnersmitha" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" onClick="_gaq.push(['_trackEvent', 'Button', 'Click', 'Twitter_Follow','1']); mixpanel.track("Follow Button Click");">Follow @gardnersmitha</a>
+        <a href="https://twitter.com/gardnersmitha" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" onClick="_gaq.push(['_trackEvent', 'Button', 'Click', 'Twitter_Follow','1']); mixpanel.track('Follow Button Click');">Follow @gardnersmitha</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         
       </div>
@@ -239,21 +239,5 @@
     </noscript>
     <!-- End Twitter --> 
 
-    <!-- Kiss Metrics -->
-    <script type="text/javascript">var _kmq = _kmq || [];
-    var _kmk = _kmk || 'f265c3eb8d5ee5886f3c00cd810bdb4a1aee2302';
-    function _kms(u){
-      setTimeout(function(){
-        var d = document, f = d.getElementsByTagName('script')[0],
-        s = d.createElement('script');
-        s.type = 'text/javascript'; s.async = true; s.src = u;
-        f.parentNode.insertBefore(s, f);
-      }, 1);
-    }
-    _kms('//i.kissmetrics.com/i.js');
-    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
-    </script>
-    <!-- //END Kiss Metrics -->
-                
   </body>
 </html>
